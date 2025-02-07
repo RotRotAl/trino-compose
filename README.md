@@ -51,13 +51,13 @@ thats it!
 
     for row in cursor.fetchall():
         print(row)
-    ```
-cursor = conn.cursor()
 
-cursor.execute("SHOW CATALOGS")
+    cursor = conn.cursor()
 
-for row in cursor.fetchall():
-    print(row)
+    cursor.execute("SHOW CATALOGS")
+
+    for row in cursor.fetchall():
+        print(row)
     ```
 
 ### Contribute & Support
