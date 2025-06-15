@@ -4,7 +4,7 @@ services:
       - trino-net
     ports:
       - "8080:8080"
-    image: "trinodb/trino:471"
+    image: "trinodb/trino:476"
     environment:
       CATALOG_MANAGEMENT: dynamic
       TRINO_HISTORY_FILE: /etc/trino/history-server/history.text
